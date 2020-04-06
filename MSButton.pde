@@ -27,20 +27,20 @@ public class MSButton
             clicked = true;
             this.setLabel("X");
             p1Clicked.add(buttons[myRow][myCol]);
-            System.out.print("X: ");
-            for (int i=0; i<p1Clicked.size(); i++)
-                System.out.print(p1Clicked.get(i)+", ");
-            System.out.println();
+            // System.out.print("X: ");
+            // for (int i=0; i<p1Clicked.size(); i++)
+            //     System.out.print(p1Clicked.get(i)+", ");
+            // System.out.println();
             p1Turn = false;
         }
         else {
             clicked = true;
             this.setLabel("O");
             compClicked.add(buttons[myRow][myCol]);
-            System.out.print("O: ");
-            for (int i=0; i<compClicked.size(); i++)
-                System.out.print(compClicked.get(i)+", ");
-            System.out.println();
+            // System.out.print("O: ");
+            // for (int i=0; i<compClicked.size(); i++)
+            //     System.out.print(compClicked.get(i)+", ");
+            // System.out.println();
             p1Turn = true;
         }
 
