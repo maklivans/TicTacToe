@@ -8,7 +8,7 @@ int tSize = 80;
 
 
 void setup() {
-	size(300,300);
+	size(298,298);
 	textAlign(CENTER,CENTER);
 	textSize(tSize);
 
@@ -30,6 +30,9 @@ void setup() {
 public void draw() {
 	background(0);
 	
+	if (!p1Turn) {
+		compTurn();
+	}
 }
 
 // public void game() {
