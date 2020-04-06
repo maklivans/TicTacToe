@@ -4,13 +4,13 @@ private ArrayList <MSButton> p1Clicked; //the squares player has clicked
 private ArrayList <MSButton> compClicked; //the squares computer has clicked
 boolean isLost = false;
 boolean p1Turn = true;
-int textSize = 80;
+int tSize = 80;
 
 
 void setup() {
 	size(300,300);
 	textAlign(CENTER,CENTER);
-	textSize(textSize);
+	textSize(tSize);
 
 	Interactive.make(this);
 	buttons = new MSButton[3][3];
